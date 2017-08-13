@@ -17,7 +17,8 @@
     indentation++;
     for (var i in result) {
       if (typeof result[i] === 'string' && i[0] !== '.') {
-        output += addIndentation() + '- [' + i + '](' + 'https://www.google.com' + ')\n';
+          output += addIndentation() +
+              '- [' + i + '](' + 'https://www.google.com' + ')\n';
       } else if (typeof result[i] === 'object'){
         output += addIndentation() + '- __' + i + '__\n';
         parseResult(result[i]);
