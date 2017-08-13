@@ -5,47 +5,23 @@ Generate markdown list of all the files in a directory with a dropbox sharelink 
 ### How to use? ###
 Install with:
 ```bash
- $ not_yet_in_npm
+ $ npm install https://github.com/karosaurus/mybookie/tarball/master
 ```
 
 Then in any dir
 ```bash
-$ use_instructions
+$ insert command here
 ```
 
 generated `list.md` file:
 
 ```markdown
-- __michal__
-  - [.fancom](michal/.fancom)
-  - [.git](michal/.git)
-  - [.gitignore](michal/.gitignore)
-  - [.jshintignore](michal/.jshintignore)
-  - [.jshintrc](michal/.jshintrc)
-  - [LICENSE](michal/LICENSE)
-  - [README.md](michal/README.md)
-  - __bin__
-    - [cli.js](michal/bin/cli.js)
-  - [michal.png](michal/michal.png)
-  - [node_modules](michal/node_modules)
-  - [npm-debug.log](michal/npm-debug.log)
-  - [package.json](michal/package.json)
-  - [screen.png](michal/screen.png)
-  - __scripts__
-    - [assert.js](michal/scripts/assert.js)
-    - [fancom.js](michal/scripts/fancom.js)
-    - [jshintrc.js](michal/scripts/jshintrc.js)
-    - [package-json.js](michal/scripts/package-json.js)
-    - [precommit-hook.js](michal/scripts/precommit-hook.js)
-    - [scripts.js](michal/scripts/scripts.js)
-    - [tests.js](michal/scripts/tests.js)
-  - __tests__
-    - [michal-tests.js](michal/tests/michal-tests.js)
+- __books__
+  - [Automated Data Collection with R - Simon Munzert.pdf](https://www.google.com)
+  - [[bitme] SQL Injection Attacks and Defense, Second Edition 1597499633 (Syngress, 2012).pdf](https://www.google.com)
+  - [Mastering Social Media Mining with R - Sharan Kumar Ravindran & Vikram Garg.pdf](https://www.google.com)
 ```
 
 note that this script __skips__ all hidden files and directories (with `.`, like `.git` or `.gitignore`) & `node_modules` directory.
 
 
-To install directly from github, use the following command:
-
-npm install https://github.com/<username>/<repository>/tarball/master
