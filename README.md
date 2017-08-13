@@ -1,15 +1,16 @@
-# md-file-tree by [@michalbe](http://github.com/michalbe) #
-Generate markdown list of all the files in a directory.
+# bookdrop by [@karosaurus](http://github.com/karosaurus)
+# forked from the nifty [md-file-tree](https://github.com/michalbe/md-file-tree) by [@michalbe](https://github.com/michalbe)
+Generate markdown list of all the files in a directory with a dropbox sharelink and google search link.
 
 ### How to use? ###
 Install with:
 ```bash
- $ npm install md-file-tree -g
+ $ not_yet_in_npm
 ```
 
 Then in any dir
 ```bash
-$ md-file-tree > list.md
+$ use_instructions
 ```
 
 generated `list.md` file:
