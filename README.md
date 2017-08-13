@@ -1,4 +1,4 @@
-# bookdrop by [@karosaurus](http://github.com/karosaurus)
+# mybookie by [@karosaurus](http://github.com/karosaurus)
 ### forked from the nifty [md-file-tree](https://github.com/michalbe/md-file-tree) by [@michalbe](https://github.com/michalbe)
 Generate markdown list of all the files in a directory with a dropbox sharelink and google search link.
 
