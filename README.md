@@ -43,3 +43,8 @@ generated `list.md` file:
 ```
 
 note that this script __skips__ all hidden files and directories (with `.`, like `.git` or `.gitignore`) & `node_modules` directory.
+
+
+To install directly from github, use the following command:
+
+npm install https://github.com/<username>/<repository>/tarball/master
